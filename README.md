@@ -1,5 +1,5 @@
 # woltka-multiprocessing
-Implemented simple multiprocessing in the classification step in [Woltka](https://github.com/qiyunzhu/woltka). When classifying on a directory of files, there is over a 2x speedup using 4 cores and over a 5x speedup using 12 cores. Multiprocessing was done using the [Pathos](https://github.com/uqfoundation/pathos) multiprocessing library which utilizies dill for synchronization. Only the classify function in workflow.py is uploaded here. 
+Simple multiprocessing implemented in the classification step in [Woltka](https://github.com/qiyunzhu/woltka). When classifying on a directory of files, there is over a 2x speedup using 4 cores and over a 5x speedup using 12 cores. Multiprocessing was done using the [Pathos](https://github.com/uqfoundation/pathos) multiprocessing library which utilizies dill for synchronization. Only the classify function in workflow.py is uploaded here. 
 
 ## References: 
 
